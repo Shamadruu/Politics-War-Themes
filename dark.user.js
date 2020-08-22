@@ -35,4 +35,5 @@
 	addGlobalStyle('.breadcrumb {background-color: #454545;}');
 	addGlobalStyle('.breadcrumb li {color:#ccc!important;}');
 	addGlobalStyle('.alert.alert-warning.center, .alert.alert-danger, .alert.alert-info {background-color: #3c3c3c;}');
+	addGlobalStyle('.nationtable tr > td.center > span.center{background-color:#333!important;}');
 })();
