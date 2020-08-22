@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         Dark Theme for Poliitics and War
-// @namespace    https://github.com/Shamadruu/thegrid/raw/master/
+// @namespace    https://github.com/Shamadruu/Politics-War-Themes/raw/master/
 // @version      1.0
 // @description  try to take over the world!
 // @author       Shamadruu
-// @downloadURL  https://raw.githubusercontent.com/Shamadruu/thegrid/master/shamui.user.js
-// @updateURL    https://raw.githubusercontent.com/Shamadruu/thegrid/master/shamui.user.js
+// @downloadURL  https://github.com/Shamadruu/Politics-War-Themes/raw/master/dark.user.js
+// @updateURL    https://github.com/Shamadruu/Politics-War-Themes/raw/master/dark.user.js
 // @match        https://politicsandwar.com/*
 // @grant        none
 // ==/UserScript==
