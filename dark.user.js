@@ -15,16 +15,18 @@
         styleElement.innerHTML = style;
         document.head.appendChild(styleElement);
     }
+	addGlobalStyle('body {background: #272b30!important;}');
+	addGlobalStyle('.container.white-bg {box-shadow: -5px 0 5px -5px transparent,5px 0 5px -5px transparent;}');
 	addGlobalStyle('body > * {background-color: #272b30!important;}');
 	addGlobalStyle('div.hidden-xs:nth-child(1) { background-color: #3c3c3c;}');
 	addGlobalStyle('body a {color: #33ccff;}');
 	addGlobalStyle('body a:hover {color: #cc33ff;}');
 	addGlobalStyle('.informationbar, .columnheader, body table.nationtable th {background-color: #003d99');
-	addGlobalStyle('body p, #leftcolumn,body table.nationtable { color:#c8c8c8;}');
+	addGlobalStyle('body p, h3, form, #leftcolumn,body table.nationtable { color:#c8c8c8;}');
 	addGlobalStyle('.achievement-showcase-title {color: #d7d77c');
 	addGlobalStyle('#header > img:nth-child(1) {filter: invert(1);}');
 	addGlobalStyle('div.col-md-1:nth-child(1) > img:nth-child(1), div.col-md-1:nth-child(3) > img:nth-child(1) {filter:invert(1);}');
-	addGlobalStyle('div.btn-group > .btn {background-color:#ccc; border-color: #3b4145; }');
+	addGlobalStyle('div.btn-group > .btn {background-color:#ccc; border-color: #3b4145; color: black; }');
 	addGlobalStyle('.nationtable tr:nth-child(2n+1) {background-color:#3b4145;}');
 	addGlobalStyle('.nationtable tr:nth-child(2n) {background-color:#272b30;}');
 	addGlobalStyle('.nationtable tr, table.nationtable td {border: #595959 solid 1px;}');
@@ -32,5 +34,5 @@
 	addGlobalStyle('.plot-container .svg-container {filter:invert(.85);}');
 	addGlobalStyle('.breadcrumb {background-color: #454545;}');
 	addGlobalStyle('.breadcrumb li {color:#ccc!important;}');
-	addGlobalStyle('.alert.alert-warning.center, .alert.alert-danger {background-color: #3c3c3c;}');
+	addGlobalStyle('.alert.alert-warning.center, .alert.alert-danger, .alert.alert-info {background-color: #3c3c3c;}');
 })();
