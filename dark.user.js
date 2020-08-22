@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dark Theme for Poliitics and War
 // @namespace    https://github.com/Shamadruu/Politics-War-Themes/raw/master/
-// @version      1.1
+// @version      1.2
 // @description  try to take over the world!
 // @author       Shamadruu
 // @downloadURL  https://github.com/Shamadruu/Politics-War-Themes/raw/master/dark.user.js
@@ -16,7 +16,7 @@
         document.head.appendChild(styleElement);
     }
 	addGlobalStyle('body {background: #272b30!important;}');
-	addGlobalStyle('.container.white-bg {box-shadow: -5px 0 5px -5px transparent,5px 0 5px -5px transparent;}');
+	//addGlobalStyle('.container.white-bg {box-shadow: -5px 0 5px -5px transparent,5px 0 5px -5px transparent;}');
 	addGlobalStyle('body > * {background-color: #272b30!important;}');
 	addGlobalStyle('div.hidden-xs:nth-child(1) { background-color: #3c3c3c;}');
 	addGlobalStyle('body a {color: #33ccff;}');
@@ -36,4 +36,5 @@
 	addGlobalStyle('.breadcrumb li {color:#ccc!important;}');
 	addGlobalStyle('.alert.alert-warning.center, .alert.alert-danger, .alert.alert-info {background-color: #3c3c3c;}');
 	addGlobalStyle('.nationtable tr > td.center > span.center{background-color:#333!important;}');
+	addGlobalStyle('#header, div.container:nth-child(10) > div:nth-child(1) {background-color: #323232;}');
 })();
