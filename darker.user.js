@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Darker Theme for Poliitics and War
 // @namespace    https://github.com/Shamadruu/Politics-War-Themes/raw/master/
-// @version      1.0
+// @version      1.1
 // @description  try to take over the world!
 // @author       Shamadruu
 // @downloadURL  https://github.com/Shamadruu/Politics-War-Themes/raw/master/darker.user.js
@@ -22,7 +22,7 @@
 	addGlobalStyle('body a {color: #33ccff;}');
 	addGlobalStyle('body a:hover {color: #cc33ff;}');
 	addGlobalStyle('.informationbar, .columnheader, body table.nationtable th {background-color: #003d99');
-	addGlobalStyle('body p, h3, form, #leftcolumn,body table.nationtable { color:#fff;}');
+	addGlobalStyle('body p, h3, form,h1, h2, h3, h4, #leftcolumn,body table.nationtable { color:#fff;}');
 	addGlobalStyle('.achievement-showcase-title {color: #d7d77c');
 	addGlobalStyle('#header > img:nth-child(1) {filter: invert(1);}');
 	addGlobalStyle('div.col-md-1:nth-child(1) > img:nth-child(1), div.col-md-1:nth-child(3) > img:nth-child(1) {filter:invert(1);}');
