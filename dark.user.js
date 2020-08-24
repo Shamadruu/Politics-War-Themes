@@ -1,7 +1,7 @@
 		// ==UserScript==
 // @name         Dark Theme for Poliitics and War
 // @namespace    https://github.com/Shamadruu/Politics-War-Themes/raw/master/
-// @version      1.6
+// @version      1.7
 // @description  try to take over the world!
 // @author       Shamadruu
 // @downloadURL  https://github.com/Shamadruu/Politics-War-Themes/raw/master/dark.user.js
@@ -22,13 +22,13 @@
 	addGlobalStyle('body a {color: #33ccff;}');
 	addGlobalStyle('body a:hover {color: #cc33ff;}');
 	addGlobalStyle('.informationbar, .columnheader, body table.nationtable th {background-color: #003d99');
-	addGlobalStyle('body p, h3, form, h1, h2, h3, h4, #leftcolumn,body table.nationtable, .offWhite { color:#c8c8c8;}');
+	addGlobalStyle('body p, h3, form, h1, h2, h3, h4, #leftcolumn,body table.nationtable { color:#c8c8c8;}');
 	addGlobalStyle('.achievement-showcase-title {color: #d7d77c');
 	addGlobalStyle('#header > img:nth-child(1) {filter: invert(1);}');
 	addGlobalStyle('div.col-md-1:nth-child(1) > img:nth-child(1), div.col-md-1:nth-child(3) > img:nth-child(1) {filter:invert(1);}');
 	addGlobalStyle('div.btn-group > .btn {background-color:#ccc; border-color: #3b4145; color: black; }');
 	addGlobalStyle('.nationtable tr:nth-child(2n+1) {background-color:#3b4145;}');
-	addGlobalStyle('.nationtable tr:nth-child(2n) {background-color:#272b30;}');
+	addGlobalStyle('.nationtable tr:nth-child(2n), .offWhite {background-color:#272b30;}');
 	addGlobalStyle('.nationtable tr, table.nationtable td {border: #595959 solid 1px;}');
 	addGlobalStyle('.nation-activity {background-color: #595959;}');
 	addGlobalStyle('.plot-container .svg-container {filter:invert(.85);}');
