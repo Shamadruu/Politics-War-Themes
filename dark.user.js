@@ -7,6 +7,7 @@
 // @downloadURL  https://github.com/Shamadruu/Politics-War-Themes/raw/master/dark.user.js
 // @updateURL    https://github.com/Shamadruu/Politics-War-Themes/raw/master/dark.user.js
 // @match        https://politicsandwar.com/*
+// @match 	 https://test.politicsandwar.com/*
 // @grant        none
 // ==/UserScript==
 (function(){
