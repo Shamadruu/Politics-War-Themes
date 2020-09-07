@@ -1,13 +1,12 @@
-		// ==UserScript==
+// ==UserScript==
 // @name         Dark Theme for Poliitics and War
 // @namespace    https://github.com/Shamadruu/Politics-War-Themes/raw/master/
-// @version      1.8
+// @version      1.5
 // @description  try to take over the world!
 // @author       Shamadruu
 // @downloadURL  https://github.com/Shamadruu/Politics-War-Themes/raw/master/dark.user.js
 // @updateURL    https://github.com/Shamadruu/Politics-War-Themes/raw/master/dark.user.js
 // @match        https://politicsandwar.com/*
-// @match 	 https://test.politicsandwar.com/*
 // @grant        none
 // ==/UserScript==
 (function(){
@@ -16,7 +15,7 @@
         styleElement.innerHTML = style;
         document.head.appendChild(styleElement);
     }
-	addGlobalStyle('body {background: #272b30!important;}');
+	addGlobalStyle('body {background: #272b30!important;; color:white;}}');
 	//addGlobalStyle('.container.white-bg {box-shadow: -5px 0 5px -5px transparent,5px 0 5px -5px transparent;}');
 	addGlobalStyle('body > * {background-color: #272b30!important;}');
 	addGlobalStyle('div.hidden-xs:nth-child(1) { background-color: #3c3c3c;}');
@@ -29,7 +28,7 @@
 	addGlobalStyle('div.col-md-1:nth-child(1) > img:nth-child(1), div.col-md-1:nth-child(3) > img:nth-child(1) {filter:invert(1);}');
 	addGlobalStyle('div.btn-group > .btn {background-color:#ccc; border-color: #3b4145; color: black; }');
 	addGlobalStyle('.nationtable tr:nth-child(2n+1) {background-color:#3b4145;}');
-	addGlobalStyle('.nationtable tr:nth-child(2n), .offWhite {background-color:#272b30;}');
+	addGlobalStyle('.nationtable tr:nth-child(2n) {background-color:#272b30;}');
 	addGlobalStyle('.nationtable tr, table.nationtable td {border: #595959 solid 1px;}');
 	addGlobalStyle('.nation-activity {background-color: #595959;}');
 	addGlobalStyle('.plot-container .svg-container {filter:invert(.85);}');
