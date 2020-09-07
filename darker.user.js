@@ -16,7 +16,7 @@
         styleElement.innerHTML = style;
         document.head.appendChild(styleElement);
     }
-	addGlobalStyle('body {background: #17191c!important;}');
+	addGlobalStyle('body {background: #17191c!important; color:white;}');
 	//addGlobalStyle('.container.white-bg {box-shadow: -5px 0 5px -5px transparent,5px 0 5px -5px transparent;}');
 	addGlobalStyle('body > * {background-color: #17191c!important;}');
 	addGlobalStyle('div.hidden-xs:nth-child(1) { background-color: #3c3c3c;}');
