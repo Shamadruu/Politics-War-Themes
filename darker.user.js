@@ -19,6 +19,8 @@
 	addGlobalStyle('body {background: #17191c!important; color:white;}');
 	//addGlobalStyle('.container.white-bg {box-shadow: -5px 0 5px -5px transparent,5px 0 5px -5px transparent;}');
 	addGlobalStyle('body > * {background-color: #17191c!important;}');
+    addGlobalStyle('.ck-content, ck-content * {color:white!important;}');
+    document.querySelectorAll(".ck-content *").forEach(function(e){ e.style.color = "white"})
 	addGlobalStyle('div.hidden-xs:nth-child(1) { background-color: #3c3c3c;}');
 	addGlobalStyle('body a {color: #33ccff;}');
 	addGlobalStyle('body a:hover {color: #cc33ff;}');
