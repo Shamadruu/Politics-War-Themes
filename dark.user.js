@@ -42,5 +42,5 @@
     addGlobalStyle('.ck.ck-editor__main * {color: black;}')
     addGlobalStyle('#rightcolumn {color: #c8c8c8!important}');
     addGlobalStyle('.alert-success {background-color: #90b181!important}');
-    addGlobalStyle('alert-warning {background-color: #BEAB47!important}');
+    addGlobalStyle('.alert-warning {background-color: #BEAB47!important}');
 })();
