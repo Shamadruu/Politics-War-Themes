@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Darker Theme for Poliitics and War
 // @namespace    https://github.com/Shamadruu/Politics-War-Themes/raw/master/
-// @version      2.1
+// @version      2.2
 // @description  try to take over the world!
 // @author       Shamadruu
 // @downloadURL  https://github.com/Shamadruu/Politics-War-Themes/raw/master/darker.user.js
