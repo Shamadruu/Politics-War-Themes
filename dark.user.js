@@ -39,5 +39,6 @@
 	addGlobalStyle('#header, div.container:nth-child(10) > div:nth-child(1), #leftcolumn, #rightcolumn {background-color: #323232;}');
 	addGlobalStyle('.red-msg {background: #bf5340;}');
 	addGlobalStyle('.blue-msg {background: #4084bf;}');
-    addGlobalStyle('.ck.ck-editor__main * {color: black;}');
+    addGlobalStyle('.ck.ck-editor__main * {color: black;}')
+    addGlobalStyle('#rightcolumn {color: #c8c8c8!important}');
 })();
