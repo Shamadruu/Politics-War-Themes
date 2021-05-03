@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dark Theme for Poliitics and War
 // @namespace    https://github.com/Shamadruu/Politics-War-Themes/raw/master/
-// @version      2.0
+// @version      2.2
 // @description  try to take over the world!
 // @author       Shamadruu
 // @downloadURL  https://github.com/Shamadruu/Politics-War-Themes/raw/master/dark.user.js
@@ -42,4 +42,5 @@
     addGlobalStyle('.ck.ck-editor__main * {color: black;}')
     addGlobalStyle('#rightcolumn {color: #c8c8c8!important}');
     addGlobalStyle('.alert-success {background-color: #90b181!important}');
+    addGlobalStyle('alert-warning {background-color: #BEAB47!important}');
 })();
