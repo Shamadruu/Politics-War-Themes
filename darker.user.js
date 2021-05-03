@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Darker Theme for Poliitics and War
 // @namespace    https://github.com/Shamadruu/Politics-War-Themes/raw/master/
-// @version      1.9
+// @version      2.0
 // @description  try to take over the world!
 // @author       Shamadruu
 // @downloadURL  https://github.com/Shamadruu/Politics-War-Themes/raw/master/darker.user.js
@@ -33,7 +33,7 @@
 	addGlobalStyle('.nationtable tr:nth-child(2n+1) {background-color:#22252a;}');
 	addGlobalStyle('.nationtable tr:nth-child(2n), .offWhite {background-color:#17191c;}');
 	addGlobalStyle('.nationtable tr, table.nationtable td {border: #595959 solid 1px;}');
-	addGlobalStyle('.nation-activity {background-color: #595959;}');	
+	addGlobalStyle('.nation-activity {background-color: #595959;}');
 	addGlobalStyle('.plot-container .svg-container {filter:invert(.85);}');
 	addGlobalStyle('.breadcrumb {background-color: #454545;}');
 	addGlobalStyle('.breadcrumb li {color:#fff!important;}');
@@ -44,4 +44,5 @@
 	addGlobalStyle('.blue-msg {background: #4084bf;}');
     addGlobalStyle('.alert.alert-info {display:none;}');
     addGlobalStyle('.ck.ck-editor__main * {color: black;}');
+    addGlobalStyle('#rightcolumn {color: white!important}');
 })();
