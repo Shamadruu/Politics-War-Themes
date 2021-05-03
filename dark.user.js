@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dark Theme for Poliitics and War
 // @namespace    https://github.com/Shamadruu/Politics-War-Themes/raw/master/
-// @version      1.9
+// @version      2.0
 // @description  try to take over the world!
 // @author       Shamadruu
 // @downloadURL  https://github.com/Shamadruu/Politics-War-Themes/raw/master/dark.user.js
